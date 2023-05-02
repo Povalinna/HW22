@@ -8,11 +8,11 @@ for (let nr = 0; nr<rows; nr++) {
 
     for (let nc = 0; nc<cols; nc++) {
 
-        let cell = document.createElement((nr==0 || nc==0)? 'th' : 'td')
+        let col = document.createElement((nr==0 || nc==0)? 'th' : 'td')
 
-        cell.textContent = (nr + 1)*(nc+1);
+        col.textContent = (nr + 1)*(nc+1);
 
-        row.append(cell);      
+        row.append(col);      
 
     }
 
