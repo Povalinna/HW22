@@ -1,3 +1,5 @@
+//Вивести таблицю 10 × 10, заповнену числами від 1 до 100 (таблиця створюється динамічно)
+
 function createTable(cols,rows){
 
 let tb = document.createElement('table');
