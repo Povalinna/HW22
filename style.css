@@ -1,0 +1,13 @@
+th {
+    background-color: darkgray;
+     }
+td {
+     background-color: silver;
+     }
+table {
+     width: 500px;
+     height: 300px;
+  border: 1px solid;
+  text-align: center;
+        }
+    
